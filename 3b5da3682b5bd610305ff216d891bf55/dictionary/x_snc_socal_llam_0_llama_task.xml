@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="2e8f8f992bcdee10bad7f99df291bf4e" extends="task" label="Llama Task" max_length="40" name="x_snc_socal_llam_0_llama_task" type="collection">
+        <element choice="3" display="true" label="Request Type" max_length="40" name="request_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Vaccine" sequence="0" value="vaccine"/>
+                <element inactive_on_update="false" label="Sheer" sequence="1" value="sheer"/>
+                <element inactive_on_update="false" label="Examine" sequence="2" value="examine"/>
+                <element inactive_on_update="false" label="Other" sequence="3" value="other"/>
+            </choice>
+        </element>
+        <element label="Requester" max_length="32" name="requester" reference="sys_user" type="reference"/>
+    </element>
+</database>

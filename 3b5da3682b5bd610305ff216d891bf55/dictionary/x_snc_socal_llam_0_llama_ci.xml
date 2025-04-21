@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3ccc65263bdb5e10adc5ac9a04e45ace" extends="cmdb_ci" label="Llama CI" max_length="40" name="x_snc_socal_llam_0_llama_ci" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="foobar field" max_length="40" name="foobar_field" type="string"/>
+    </element>
+</database>

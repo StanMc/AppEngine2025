@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="9f549bdd2bcdee10bad7f99df291bfae" extends="kb_knowledge" label="Llama KB" max_length="40" name="x_snc_socal_llam_0_llama_kb" type="collection"/>
+</database>
